@@ -18,10 +18,11 @@ int main()
 
     RemoveNumbers RM;
 
-    vector<int> repetidos = { 1,1,2,2,3,3 };
+    vector<int> repetidos = { 1,1,2,2,3,3,4,8,8,9,10,10,11,1,4,7,5,6,3,4,7,2,11,9,9,9 };
     vector<int> nuevos = RM.removeNumbers(repetidos);
     printVector(nuevos);
-
+    
+    
 
 }
 
